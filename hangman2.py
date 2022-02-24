@@ -2,7 +2,7 @@ import random
 
 def hangman():
     "This function runs the game hangman.."
-    word_list = ['willy', 'cock', 'knob', 'biggusdickus', 'penis']
+    word_list = ['various', 'random', 'words', 'to', 'choose', 'from']
     game_word = random.choice(word_list)
     word1 = list(game_word)
     guess = (len(game_word) * '-')
